@@ -1,0 +1,18 @@
+.component { 
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    margin-top: 5px;
+
+}
+
+.button  {
+    background-color: yellow;
+    height: 32px;
+    margin-left: 5px;
+    grid-gap: 3px;
+}
+
+.div {
+    padding-top: 10px;
+    margin-bottom: 7px;
+}

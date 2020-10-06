@@ -1,0 +1,52 @@
+.admin{
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    padding-bottom: 20px;
+    min-height: 400px;
+  }
+.aside{
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0px 0px 20px;
+  position: relative;
+  max-width: 250px;
+  min-width: 250px;
+  float: left;
+}
+.aside h3{
+  margin: 0;
+  display: block;
+  padding: 20px 0;
+  color: white;
+  background-color:#362181;
+}
+.aside input[type=radio]{
+  display:none;
+}
+.aside input[type=radio]:checked + label{
+  background-color: #d9d9d9;
+}
+.aside label{
+  text-align: left;
+  position: relative;
+  display: block;
+  background-color:#eee;
+  padding: 15px 0 12px 45px;
+  transition: .3s;
+}
+
+.icon{
+position: absolute;
+left: 15px;
+top: 12px;
+}
+.aside label:hover{
+  background-color: #d9d9d9;
+}
+.main{
+  float: left;
+  padding: 10px 0px 0px 20px;
+  height: fit-content;
+}

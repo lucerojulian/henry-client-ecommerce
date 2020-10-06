@@ -1,0 +1,82 @@
+.form{
+	position: fixed;
+	z-index: 502;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:50px;
+	width: 1000px;
+	background-color:#eee;
+	border-radius: 10px;
+	overflow: hidden;
+	height: fit-content;
+}
+
+.content h3{
+	color: #fff;
+	background: #362181;
+	padding: 10px 20px 10px 10px;
+	margin: 0 0 20px 0;
+}
+.image{
+	padding: 10px;
+	width: 300px;
+	height: 450px;
+	overflow: hidden;
+	margin-left: 40px;
+	float: left;
+}
+.slider{
+	height: 350px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.inputs{
+	margin-left: 10px;
+	float: left;
+	width: 600px;
+}
+
+.content fieldset{
+	border: none;
+	font-weight: 500;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 400px;
+	border: 2px solid #362181;
+	border-radius: 10px;
+}
+.numbers{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+.numbers fieldset{
+	width: 150px;
+	display: inline-block;
+}
+.content legend{
+	color:black;
+	text-align: left;
+}
+
+.input{
+	resize: none;
+	font-size: 16px;
+	background:transparent;
+	border: none;
+	outline: none;
+	outline-style: none;
+	width: 100%;
+	padding: 5px 0 5px 5px;
+}

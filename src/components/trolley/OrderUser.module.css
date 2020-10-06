@@ -1,0 +1,33 @@
+.OrderUser{
+    margin: 150px auto;
+    width: 600px;
+}
+.OrderUser table{
+  background-color: whitesmoke;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+.OrderUser th, .OrderUser td{
+     padding:15px;
+}
+.OrderUser thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+.OrderUser tr:nth-child(even){
+	background-color: #ddd;
+}
+.OrderUser tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+.Total{
+    font-weight: bold;
+    background-color: #246355;
+    color: white;
+    border-color: #0F362D;
+    border-top-style: solid;
+    border-top-width: 4px;
+}

@@ -1,0 +1,17 @@
+.component {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  margin-top: 5px;
+}
+
+.button {
+  justify-content: space-evenly;
+  height: 32px;
+  margin-left: 5px;
+  grid-gap: 3px;
+}
+
+.div {
+  padding-top: 10px;
+  margin-bottom: 7px;
+}

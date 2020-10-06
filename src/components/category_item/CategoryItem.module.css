@@ -1,0 +1,23 @@
+.categoryItem{
+  display: inline-block;
+  margin: 2px 5px 10px 0;
+}
+.categoryItem input[type=checkbox]{
+  display: none;
+}
+
+.categoryItem label{
+  padding: 2px 5px;
+  border:1px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: .5s;
+}
+.categoryItem label:hover{
+  background-color: #5f45ba;
+}
+.categoryItem input[type=checkbox]:checked + label{
+  background-color: #362181;
+  border:1px solid #362181;
+  color:white;
+}

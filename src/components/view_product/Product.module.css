@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.imagen {
+  height: 460px;
+  width: 400px;
+}
+
+.img {
+  border-radius: 5px;
+  margin-right: 5px;
+  height: 460px;
+  width: 700px;
+}
+
+.left {
+  align-items: left;
+  justify-self: flex-start;
+  color: black;
+}
+
+.body {
+  padding: 0px 8px 0px 8px;
+  margin-left: 2px;
+  border: 1px solid grey;
+  height: 460px;
+}
+.izquierda {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.num {
+  font-size: 44px;
+  font-weight: 300;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif;
+  margin-top: -10px;
+}
+
+.titulo {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: courier, arial, helvetica;
+}
+.title {
+  margin-top: -10px;
+  text-align: center;
+  margin-left: 0px;
+  font-family: courier, arial, helvetica;
+  font-size: 40px;
+  color: black;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.rating {
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-left: 95px;
+}
+.opinion {
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.buttoms {
+  display: flex;
+  justify-content: space-around;
+}
+
+h5 {
+  text-decoration: none;
+}
+
+.review {
+  flex-direction: column;
+}
+.opinion {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.e {
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto;
+  margin-top: -10px;
+}
+.daropinion {
+  margin-top: -25px;
+}
+.alert {
+  width: 95%;
+}
+
+
+.Palabrareview{
+  text-align: center;
+}

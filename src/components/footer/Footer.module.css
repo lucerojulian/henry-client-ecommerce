@@ -1,0 +1,27 @@
+.footer{
+  margin-top: 50px;
+  color: white;
+  border-top: 1px solid #5bcc35;
+  background-color: #242424;
+  height: 200px;
+  width: 100%;
+  float:left;
+}
+.authors{
+  float: left;
+  margin-left: 100px;
+  text-align: left;
+  width: 200px;
+}
+.authors h4{
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+.authors ul{
+  margin:0;
+  font-size: 14px;
+}
+.copyright{
+  float: left;
+  margin-left: 250px;
+}

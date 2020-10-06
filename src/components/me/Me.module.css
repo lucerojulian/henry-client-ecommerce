@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.ttf");
+}
+
+.me{
+  font-family: "Poppins";
+  width: 80%;
+  min-height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.me h2{
+  padding-left: 50px;
+}
+.me h2,h4{
+  margin: 20px 0 0 0;
+  text-align: left;
+}
+
+.userInfo{
+  width: 95%;
+  height: fit-content;
+  padding: 10px 0 50px 30px;
+  text-align: left;
+  border: 1px solid lightgray;
+}
+.userInfo img{
+  filter: opacity(60%);
+  position: relative;
+  top: 25px;
+  width: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: gray;
+}
+.data{
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+}
+.userOrders{
+  margin-right: auto;
+  margin-left: auto;
+  width:fit-content;
+  min-height: 300px;
+}
